@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+body{
+    background: #FFFFFF;
+}
+
+
+/*RESPONSIVE DESIGNE HEADER*/
+@media only screen and (max-width:412px){ 
+    .header{
+    background-color: #D5E2EE;
+    display: flex;
+    height: 4.5rem;
+    float: center;
+    }
+
+    .Cartken__header{
+        font-weight: lighter;
+        margin-top: 1rem;  
+        display: flex;
+        align-items: center;
+        margin-left: 13%;
+        
+    }
+
+    .header__logo{
+  float: left;
+  width: auto; /* Ajusta el ancho de la imagen según sea necesario */
+      height: auto; /* Mantiene la proporción original de la imagen */
+    margin-left: 1rem;  
+
+    }
+}
+
+@media only screen and (412px <= width <= 800px ){ 
+    .header{
+        background-color: #D5E2EE;
+        display: flex;
+        height: 4.5rem;
+        float: center;
+      
+    }
+    
+    .Cartken__header{
+        font-weight: lighter;
+        margin-top: 1rem;  
+        display: flex;
+        align-items: center;
+        margin-left: 23%;
+   
+    }
+    
+    .header__logo{
+        float: left;
+        width: auto; /* Ajusta el ancho de la imagen según sea necesario */
+        height: auto; /* Mantiene la proporción original de la imagen */
+        margin-left: 1rem;  
+    
+    }
+}
+
+@media only screen and (800px <= width <= 1024px ){ 
+    .header{
+        background-color: #D5E2EE;
+        display: flex;
+        height: 4.5rem;
+        float: center;
+    }
+    
+    .Cartken__header{
+        font-weight: lighter;
+        margin-top: 1rem;  
+        display: flex;
+        align-items: center;
+        margin-left: 35%;
+   
+    }
+    
+    .header__logo{
+        float: left;
+        width: auto; /* Ajusta el ancho de la imagen según sea necesario */
+        height: auto; /* Mantiene la proporción original de la imagen */
+        margin-left: 1rem;  
+    }
+}
+
+@media only screen and (1024px <= width <= 1430px ){ 
+    .header{
+        background-color: #D5E2EE;
+        display: flex;
+        height: 4.5rem;
+        float: center;
+    }
+    
+    .Cartken__header{
+        font-weight: lighter;
+        margin-top: 1rem;  
+        display: flex;
+        align-items: center;
+        margin-left: 35%;
+   
+    }
+    
+    .header__logo{
+        float: left;
+        width: auto; /* Ajusta el ancho de la imagen según sea necesario */
+        height: auto; /* Mantiene la proporción original de la imagen */
+        margin-left: 1rem;  
+    }
+}
+@media only screen and (min-width:1430px ){ 
+.header{
+    background-color: #D5E2EE;
+    display: flex;
+    height: 4.5rem;
+    float: center;
+}
+
+.Cartken__header{
+    font-weight: lighter;
+    margin-top: 1rem;  
+    display: flex;
+    align-items: center;
+    margin-left: 42%;
+
+}
+
+.header__logo{
+    float: left;
+    width: auto; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-left: 1rem;  
+}
+
+}
